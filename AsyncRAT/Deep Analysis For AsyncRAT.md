@@ -631,10 +631,10 @@ for k, v in config.items():
 
 
 ```yara
-rule AsyncRAT_Walware : AsyncRAT
+rule AsyncRAT_Malware : AsyncRAT
 {
     meta:
-       description = "Detect_AsyncRAT_malware"
+       description = "Detect_AsyncRAT_Malware"
         author = "@Samaha"
         md5 = "b423cbb605900fff304f59d4a42843e7"
        sha256 = "6cb8076e98be148c3ada15db2cb41466b0a09bd48b33f9d8de54a77a92c8c64b" 
