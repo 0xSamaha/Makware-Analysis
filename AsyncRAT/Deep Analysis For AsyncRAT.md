@@ -482,7 +482,7 @@ In the ``Antivirus`` section , the malware checks if any installed antivirus pro
 
 ### Wallets
 
- **AsyncRAT** cheching for sevral wallets in sevral browers like : 
+**AsyncRAT** checking for several wallets in several browsers like :
 
  #### MetaMask 
 
