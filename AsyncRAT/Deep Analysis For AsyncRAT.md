@@ -645,7 +645,7 @@ rule AsyncRAT_Malware : AsyncRAT
     $s6 = "passload" wide ascii
     $s7 = "masterKey can not be null or empty" wide ascii
     $s8 = "sendPlugin" wide ascii
-    $s9 =  = "schtasks /create /f /sc onlogon /rl highest" wide ascii
+    $s9 =  "/c schtasks /create /f /sc onlogon /rl highest /tn \"" wide ascii
     $op1 = "@echo off" wide ascii
     $op2 = "START \"\" \"" wide ascii
     $op3 = "timeout 3 > NUL" wide ascii
