@@ -278,6 +278,7 @@ The malware kills the targeted service with ``ControlService`` .
 
 
 The malware gets a list of all running processes in the system with ``CreateToolhelp32Snapshot`` .
+
 ![](images/46.png)
 
 
