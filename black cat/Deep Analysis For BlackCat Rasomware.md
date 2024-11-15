@@ -148,7 +148,7 @@ The malware checks for privileges using ``SHTestTokenMembership`` .
 
 ![](images/20.png)
 
-Here , the access token for the process is opened with ``NtOpenProcessToken` .
+Here , the access token for the process is opened with ``NtOpenProcessToken`` .
 
 ![](images/21.png)
 
