@@ -119,6 +119,7 @@ Now try to determine the ``ID`` for itself .
 ![](images/13.png)
 
 The malware generates 16 random bytes by calling ``BCryptGenRandom`` again .
+
 ![](images/14.png)
 
 Then it creates a named pipe with the ``process ID`` and random number returned from ``BCryptGenRandom`` to receive the output of the executed command .
